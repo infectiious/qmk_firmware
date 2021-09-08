@@ -86,7 +86,7 @@ __attribute__((weak)) void oled_task_user(void) {
 
 	render_goblin_logo();
 
-    oled_set_cursor(0,11);=
+    oled_set_cursor(0,11);
 
 	switch (get_highest_layer(layer_state)) {
 		case 0:
